@@ -1,4 +1,4 @@
- race = [int(i) for i in input().split(' ')]
+race = [int(i) for i in input().split(' ')]
 finish = len(race) // 2
 f_car = race[:finish]
 s_car = race[-1:finish:-1]
